@@ -15,7 +15,16 @@ class Cars
     return @model
   end
 
-  def level_of_fuel()
+  def level_of_fuel(speed, fuel_level)
+    
+    @speed += 10
+    @fuel_level -= 5
    
   end
+
+  # def speed_of_car(speed)
+  #   #brake -= 10 but also needs to be =< 0
+
+  # end
+
 end
